@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Tests.MyTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-04-22T09:58:54" hostname="Natka" time="15.29">
+  <properties/>
+  <testcase name="testTest" classname="Tests.MyTest" time="15.29"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[1492855118413	geckodriver	INFO	Listening on 127.0.0.1:46755
+1492855119435	mozprofile::profile	INFO	Using profile path C:\Users\natka\AppData\Local\Temp\rust_mozprofile.RQiVlP1fc1Pi
+1492855119466	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args []
+1492855119482	geckodriver::marionette	INFO	Connecting to Marionette on localhost:58875
+JavaScript warning: https://js.imgsmail.ru/mail/e/utf/ts/1492601878/ru_RU/images/js/ru/build/Compose.js, line 8: unreachable code after return statement
+JavaScript warning: https://js.imgsmail.ru/mail/e/utf/ts/1492601878/ru_RU/images/js/ru/build/Compose.js, line 16: unreachable code after return statement
+JavaScript warning: https://js.imgsmail.ru/mail/e/utf/ts/1492601878/ru_RU/images/js/ru/build/Compose.js, line 18: unreachable code after return statement
+]]></system-err>
+</testsuite>
