@@ -1,6 +1,5 @@
 package Pages;
 
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -8,7 +7,7 @@ import org.openqa.selenium.support.FindBy;
  * Created by DELL on 4/2/2017.
  */
 public class LoginPage extends BasePage{
-    //WebDriver driver;
+
 
 	@FindBy(id="mailbox__login")
 	private WebElement name_;
@@ -20,20 +19,15 @@ public class LoginPage extends BasePage{
 	private WebElement authButton;
 
 
-	public LoginPage(WebDriver driver) {
-		/*this.driver=driver;
-		PageFactory.initElements(driver,this);*/
-		super(driver);
-	}
-
-	public AfterLoginPage login(String name, String password) throws InterruptedException {
-		//new WebDriverWait(driver, 10).until(ExpectedConditions.frameToBeAvailableAndSwitchToIt());
-
+	protected void setName_(String name) {
 		name_.sendKeys(name);
-		password_.sendKeys(password);
-		authButton.submit();
-		Thread.sleep(15000);
-		return new AfterLoginPage(driver);
 	}
 
+	protected void setPassword_(String password) {
+		password_.sendKeys(password);
+	}
+	protected void authButtonClick_() throws InterruptedException {
+		authButton.submit();
+		Thread.sleep(7000);
+	}
 }

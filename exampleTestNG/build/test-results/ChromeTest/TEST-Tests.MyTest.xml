@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Tests.MyTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-04-09T08:13:50" hostname="Natka" time="24.937">
+<testsuite name="Tests.MyTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-04-29T11:41:25" hostname="Natka" time="8.769">
   <properties/>
-  <testcase name="testTest" classname="Tests.MyTest" time="24.937"/>
+  <testcase name="testTest" classname="Tests.MyTest" time="8.769"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
+  <system-err><![CDATA[Apr 29, 2017 2:41:26 PM Steps.LoginStep login
+INFO: log User name - mytest_test password -337774a
+]]></system-err>
 </testsuite>
